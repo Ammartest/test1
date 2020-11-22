@@ -1,0 +1,118 @@
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+
+p{
+font-variant: small-caps;
+}
+
+h1{
+  color: rgb(138, 43, 226);
+}
+
+details {
+  font-style: italic;
+}
+
+summary{
+  font-style: normal;
+}
+
+/* seitenabstand */
+body {
+  margin: 4%;
+  background: #3b3b3b;
+  font-size: 150%;
+}
+
+/*vergrößern des Boxes -> Padding*/
+header{
+	background: #00b7ea;
+	text-align: center;
+  padding-bottom: 2px;
+}
+
+nav {
+    font-variant: small-caps;
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 150%;
+}
+
+/* display inline-block --> alle sections nebeneinander 
+  margin --> Abstand voneinander
+  float --> sortieren nach links */ 
+section{
+      width:30%;
+      margin-right: 2%;
+      display:inline-block;
+      float:left;
+    }
+
+
+/*::selection --> Farbe für ausgewählte Texts und Background*/
+::selection {
+color: rgb(243, 11, 11);
+background-color: rgb(138, 43, 226);
+
+}
+
+
+/*clear --> unabhängig von nebenobjekte machen. So bewegt sich das Tag nicht*/
+footer{
+      background: #00b7ea;
+      height:100px;
+      clear: both;
+    }
+
+/*img --> kontrolliert alle Images auf dem Stylesheet*/
+img {
+  width: 100px;
+}
+
+
+.Links {
+  display: inline-block;
+  font-weight: bold;
+  color: #ffffff;
+  background: #8182ac;
+  width: 250px;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  margin:0 center;  /*Centers the element*/
+  margin-top: 10px;
+  column-count: 3; 
+  column-gap: 3;
+  border-radius: 40px; /*Box redesigne*/
+  opacity: 0.7; /*Hintergrund weniger machen*/
+}
+
+/*When mouse hovers over link*/
+.Links:hover{  
+  background: #B3B3B3;
+  color: #3c3d66;
+}
+
+/*When user tabs to this link*/
+.Links:focus{ 
+  background: #B3B3B3;
+  color: #0006CC;
+}
+
+/*When user clicks and holds mouse button on this link*/
+.Links:active{ 
+  border: 3px solid #000000;
+}
+
+
+
+
+footer, header {
+background: #666666;
+background: -moz-linear-gradient(top, #666666);
+background: -webkit-linear-gradient(#666666);
+background: -o-linear-gradient(#666666 0%,  #00b7ea);
+background: linear-gradient(#666666 0%, #00b7ea);
+}

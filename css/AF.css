@@ -1,0 +1,163 @@
+body {
+	font-family: Arial, "Trebuchet MS",
+	Tahoma, sans-serif;
+	color: #383f51
+}
+
+header {
+	background-color: #dddbf1;
+	border-radius: 1em;
+	margin-top: -5%;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: Times,
+	"Times New Roman", Georgia, serif;
+	font-weight: bold;
+	font-size: 10vw;
+	color: #383f51;
+	text-align: center;
+	padding: .5em .5em 0 .5em;
+}
+
+nav {
+	font-family: Arial, "Trebuchet MS",
+	Tahoma, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding: 0 0em 2em 1.5em;
+}
+
+nav a {
+	margin-right: .5em;
+	color: #48233c;
+	text-decoration: none;
+	background-color: #d1beb0;
+	padding: 6px 15px;
+	border-radius: 6px;
+}
+
+nav a:last-child {
+	margin: 0;
+}
+
+nav a:hover {
+	color: #ffffff;
+	background-color: #383f51;
+	padding: 6px 15px;
+	border-radius: 6px;
+}
+
+.active {
+	color: #ffffff;
+	background-color: #383f51;
+	padding: 6px 15px;
+	border-radius: 6px;
+}
+
+.active:checked {
+	color: lightcoral;
+}
+
+aside {
+	display: none;
+}
+
+.right {
+	background-color: #d1beb0;
+	border-radius: 1em;
+	padding: 1em 1.5em 2em 1.5em;
+}
+
+.right p {
+	line-height: 1.5;
+}
+
+h2 {
+	font-family: Times,
+	"Times New Roman", Georgia, serif;
+	font-size: 3vw;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5A4435;
+}
+
+section a {
+	color: #5263B7;
+	font-style: oblique;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 100%;
+}
+
+th,
+td {
+	padding: 6px 15px;
+}
+
+th {
+	background: #383f51;
+	color: #ffffff;
+	text-align: left;
+}
+
+tr:first-child th:first-child {
+	border-top-left-radius: 6px;
+}
+
+tr:first-child th:last-child {
+	border-top-right-radius: 6px;
+}
+
+td {
+	border-right: 1px solid #c6c9cc;
+	border-bottom: 1px solid #c6c9cc;
+}
+
+td:first-child {
+	border-left: 1px solid #c6c9cc;
+}
+
+tr:nth-child(even) td {
+	background: #eaeaed;
+}
+
+tr:nth-child(odd) td {
+	background: #BDBDC7;
+}
+
+tr:last-child td:first-child {
+	border-bottom-left-radius: 6px;
+}
+
+tr:last-child td:last-child {
+	border-bottom-right-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
