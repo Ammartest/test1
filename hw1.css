@@ -1,9 +1,9 @@
 header {
   background: rgb(47, 79, 79);
   padding: 20px;
-  background-image: url("flywheel.jpg");
+  background-image: url("images/flywheel.jpg");
   background-size: cover;
-  
+  border-radius: 15px 15px 15px 15px;
 }
 h1 {
 color: rgb(247, 241, 241);
@@ -30,7 +30,7 @@ border-radius: 10px;
 border: #7374ac, 5px;
 padding: 10px;
 margin: 2px;
-opacity: 70%;
+opacity: 100%;
 }
 
 
@@ -49,7 +49,7 @@ border-radius: 10px;
 border: #7374ac, 5px;
 padding: 10px;
 margin: 4px;
-opacity: 70%;
+opacity: 100%;
 }
 
 
@@ -191,10 +191,12 @@ border-style: double inset outset;
 tr {
 opacity: 80%;
 font-size: 100%;
+background-color: #bdbdfa;
 
 }
 
 tr:hover {
 opacity: 150%;
 font-size: 150%;
+background-color: #800000;
 }
